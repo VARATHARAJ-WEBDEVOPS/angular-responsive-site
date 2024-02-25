@@ -1,0 +1,85 @@
+.home {
+    height: 100svh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.homeContents {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ddc5f8;
+}
+
+.leftContent {
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 15%;
+}
+
+.rightContent {
+    width: 35%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 15%;
+}
+
+.leftContent p {
+    color: #03b6ff;
+    font-weight: 700;
+    letter-spacing: 0.5vh;
+}
+
+.leftContent h1 {
+    font-size: 8vh;
+    font-weight: 500;
+    line-height: 8vh;
+}
+
+.leftContent button {
+    padding-inline: 16px;
+    padding-block: 12px;
+    background: none;
+    border: none;
+    background-color: #03b6ff;
+    color: #fff;
+    margin-top: 3vh;
+}
+
+.rightContent img {
+    width: 50vh;
+    height: 50vh;
+}
+
+.emptyspace {
+    width: 100%;
+    height: 20vh;
+    position: relative;
+}
+
+.Container {
+    width: 70%;
+    padding-inline: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: -39px;
+}
+
+.specContainer {
+    width: 32%;
+    height: 22vh;
+    background-color: #fff;
+    border: 3px solid transparent; 
+    border-radius: 2vh;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
